@@ -215,9 +215,6 @@ h1 {
 /*section services finish*/
 
 /*project__flat start*/
-.section__project-flat{
-  background-image: url(../img/Rectangle\ 10.png);
-}
 .project__flat{
   margin: 0 auto;
   box-sizing: border-box;
@@ -228,6 +225,7 @@ h1 {
   height: 717px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url(../img/Rectangle\ 10.png);
 }
 .project__flat-text {
   position: absolute;
