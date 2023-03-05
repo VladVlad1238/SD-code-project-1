@@ -216,7 +216,7 @@ h1 {
 
 /*project__flat start*/
 .section__project-flat{
-  background-image: url(../img/Rectangle\ 10.png);
+  background-image: url(./img/Rectangle\ 10.png);
 }
 .project__flat{
   margin: 0 auto;
