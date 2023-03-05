@@ -310,7 +310,6 @@ h1 {
 }
 .footer__lists-menu a:hover {
   opacity: 0.5;
-  text-decoration: underline;
 }
 .footer__text {
   margin-bottom: 30px;
