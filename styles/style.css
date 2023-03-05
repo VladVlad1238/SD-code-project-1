@@ -271,15 +271,27 @@ h1 {
   letter-spacing: -0.03em;
   color: #121212
 }
-.contacts__email p {
+.contacts__email {
   margin-bottom: 160px;
+}
+.contacts__email a {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -0.03em;
   color: #121212;
+  text-decoration: none;
   opacity: 0.5;
-  text-decoration: underline;
+}
+.contacts__email::after {
+  margin-top: 10px;
+  width: 430px;
+  height: 2px;
+  content: "";
+  display: block;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.5;
 }
 /*contacts__container finish*/
 
