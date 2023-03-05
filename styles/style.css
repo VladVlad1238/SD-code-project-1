@@ -218,7 +218,7 @@ h1 {
 .project__flat{
   margin: 0 auto;
   box-sizing: border-box;
-  width: 1400px;
+  width: 100%;
   margin-bottom: 151px;
   position: relative;
   background: 100%;
