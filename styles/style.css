@@ -4,6 +4,7 @@ html {
 }
 body {
   font-family: 'Manrope', sans-serif;
+  margin: o auto;
   width: 1400px;
 }
 
@@ -185,8 +186,9 @@ h1 {
 /*section services start*/
 .services__section {
   background: black;
-    margin: 0 auto;
-    width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
 }
 .section__services {
   margin: 0 auto;
