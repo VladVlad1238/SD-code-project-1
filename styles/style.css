@@ -4,6 +4,7 @@ html {
 }
 body {
   font-family: 'Manrope', sans-serif;
+  width: 1400px;
 }
 
 .container {
@@ -182,6 +183,16 @@ h1 {
 /*pojects__button finish*/
 
 /*section services start*/
+.service__section {
+  background: black;
+    margin: 0 auto;
+    width: 1200px;
+}
+.section__services {
+  margin: 0 auto;
+  width: 1150px;
+  padding: 120px 20px;
+}
 .service__list-title {
   margin-bottom: 34px;
   font-weight: 400;
