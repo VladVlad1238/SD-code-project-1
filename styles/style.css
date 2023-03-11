@@ -236,6 +236,7 @@ h1 {
 .service__text {
   margin-top: 13px;
   margin-bottom: 60px;
+  margin-left: 4px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
