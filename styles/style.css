@@ -52,6 +52,7 @@ body {
 .nav__link:hover {
   padding-bottom: 2px;
   border-bottom: 1px solid;
+  opacity: 0.5;
 }
 
 /*navbar__finish*/
