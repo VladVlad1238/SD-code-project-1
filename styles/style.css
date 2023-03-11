@@ -216,7 +216,7 @@ h1 {
   margin: 0 auto;
   padding-top: 151px;
   padding-bottom: 88px;
-  width: 1400px;
+  width: 100%;
   background: #121212;
 }
 .services__container {
@@ -248,7 +248,7 @@ h1 {
 /*project__flat start*/
 .project__flat-section {
   margin: 0 auto;
-  width: 1400px;
+  width: 100%;
 }
 .project__flat-container{
   margin-bottom: 184px;
@@ -265,7 +265,7 @@ h1 {
   height: 83px;
   right: 810px;
   bottom: 59px;
-  left: 126px;
+  left: 184px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
