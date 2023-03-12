@@ -27,7 +27,7 @@ body {
 .navbar__img {
   display: block;
   margin-top: 32px;
-  margin-bottom: 74px;
+  margin-bottom: 72px;
   width: 127px;
   height: 22px;
 }
@@ -64,7 +64,7 @@ body {
 .main__container {
   margin: 0 auto;
   width: 1150px;
-  margin-bottom: 149px;
+  margin-bottom: 150px;
 }
 h1 {
   margin-bottom: 29px;
@@ -89,7 +89,7 @@ h1 {
   position: absolute;
   left: 40px;
   right: 680px;
-  bottom: 41px;
+  bottom: 39px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -117,8 +117,8 @@ h1 {
   color: #121212;
 }
 .about__us-text {
-  margin-left: 1px;
-  margin-bottom: 30px;
+  margin-left: 3px;
+  margin-bottom: 29px;
   width: 1048px;
   font-weight: 400;
   font-size: 45px;
@@ -135,7 +135,7 @@ h1 {
   cursor: pointer;
   font-weight: 400;
   font-size: 21px;
-  line-height: 27px;
+  line-height: 21px;
   letter-spacing: -0.03em;
   background-color:#AD1818;
   color: #FFFFFF;
