@@ -39,7 +39,7 @@ body {
 .nav__link {
   display: inline-block;
   margin-top: 33px;
-  margin-left: 60px;
+  margin-left: 58px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -49,12 +49,11 @@ body {
   text-decoration: none;
   color: #121212;
 }
-.nav__link:hover {
+.nav a:hover {
   padding-bottom: 2px;
   border-bottom: 1px solid;
   opacity: 0.5;
 }
-
 /*navbar__finish*/
 
 /*main__section start*/
@@ -118,6 +117,7 @@ h1 {
   color: #121212;
 }
 .about__us-text {
+  margin-left: 1px;
   margin-bottom: 30px;
   width: 1048px;
   font-weight: 400;
@@ -151,19 +151,22 @@ h1 {
   margin: 0 auto;
   width: 1150px;
 }
-.project__list-title h2{
-  margin-bottom: 30px;
+.projects__container .project__item {
+  margin-bottom: 89px;
+}
+.project__list-title {
+  margin-bottom: 25px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
+  color: #121212;
 }
-.project__img img {
-  margin-bottom: 12px;
-  width: 1150px;
-  height: 450px;
+.project__img {
+  margin-bottom: 15px;
 }
-.project__text p {
+.project__title {
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 30px;
@@ -172,19 +175,20 @@ h1 {
   color: #121212;
 }
 .project__link {
-  margin-bottom: 90px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
-}
-.project__link a {
   color: #AD1818;
   text-decoration: none;
 }
 /*projects-item finish*/
 
 /*pojects__button start*/
+.projects__button {
+  margin: 0 auto;
+  width: 1150px;
+}
 .projects__button button {
   margin-bottom: 150px;
   width: 100%;
@@ -266,7 +270,7 @@ h1 {
   height: 83px;
   right: 810px;
   bottom: 59px;
-  left: 184px;
+  left: 185px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
@@ -302,7 +306,7 @@ h1 {
   bottom: 35px; 
   width: 24px;
   height: 24px;
-  background-image: url(/img/Vector.svg);
+  background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
 }
 .contacts__number {
@@ -331,7 +335,7 @@ h1 {
 .contacts__email::after {
   margin-top: 10px;
   width: 408px;
-  height: 2px;
+  height: 1.5px;
   content: "";
   display: block;
   background-color: black;
@@ -344,6 +348,7 @@ h1 {
 /*footer start*/
 .footer__section {
   margin: 0 auto;
+  width: 100%;
 }
 .footer__container {
   margin: 0 auto;
@@ -374,6 +379,7 @@ h1 {
   opacity: 0.5;
 }
 .footer__text {
+  margin-left: 5px;
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 20px;
