@@ -67,7 +67,7 @@ body {
   margin-bottom: 150px;
 }
 h1 {
-  margin-bottom: 29px;
+  margin-bottom: 30px;
   width: 956px;
   font-weight: 400;
   font-size: 60px;
@@ -89,7 +89,7 @@ h1 {
   position: absolute;
   left: 40px;
   right: 680px;
-  bottom: 39px;
+  bottom: 40px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -118,7 +118,7 @@ h1 {
 }
 .about__us-text {
   margin-left: 3px;
-  margin-bottom: 29px;
+  margin-bottom: 31px;
   width: 1048px;
   font-weight: 400;
   font-size: 45px;
@@ -127,7 +127,7 @@ h1 {
   color: #121212;
 }
 .services__button-btn {
-  margin-bottom: 150px;
+  margin-bottom: 149px;
   width: 255px;
   height: 67px;
   border: none;
@@ -152,10 +152,10 @@ h1 {
   width: 1150px;
 }
 .projects__container .project__item {
-  margin-bottom: 89px;
+  margin-bottom: 90px;
 }
 .project__list-title {
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -164,7 +164,7 @@ h1 {
   color: #121212;
 }
 .project__img {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 .project__title {
   margin-bottom: 15px;
@@ -190,9 +190,10 @@ h1 {
   width: 1150px;
 }
 .projects__button button {
+  display: block;
   margin-bottom: 150px;
   width: 100%;
-  height: 153px;
+  height: 150px;
 
   border: 1px solid #AD1818;
   border-radius: 5px;
@@ -201,7 +202,7 @@ h1 {
   font-size: 31px;
   font-weight: 400;
   text-align: center;
-  line-height: 40px;
+  line-height: 150px;
   letter-spacing: -0.03em;
 
   color: #AD1818;
@@ -220,7 +221,6 @@ h1 {
 .services__section {
   margin: 0 auto;
   padding-top: 151px;
-  padding-bottom: 88px;
   width: 100%;
   background: #121212;
 }
@@ -229,24 +229,31 @@ h1 {
   width: 1150px;
 }
 .service__list-title {
+  padding-left: 2px;
   margin-bottom: 34px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
+  color: #FFFFFF;
   text-transform: uppercase;
-  color: #FFFFFF
 }
-
+.service__img {
+  padding-bottom: 13px;
+}
 .service__text {
-  margin-top: 13px;
-  margin-bottom: 60px;
-  margin-left: 4px;
+  padding-left: 4px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.03em;
-  color: #FFFFFF;
+  color: white;
+}
+.service__item {
+  padding-bottom: 60px;
+}
+.service__item:nth-last-child(1){
+  padding-bottom: 150px;
 }
 /*section services finish*/
 
@@ -256,7 +263,7 @@ h1 {
   width: 100%;
 }
 .project__flat-container{
-  margin-bottom: 184px;
+  margin-bottom: 185px;
   position: relative;
   height: 717px;
   background-image: url(../img/Rectangle\ 10.png);
@@ -269,7 +276,7 @@ h1 {
   width: 443px;
   height: 83px;
   right: 810px;
-  bottom: 59px;
+  bottom: 60px;
   left: 185px;
   font-weight: 400;
   font-size: 30px;
@@ -300,21 +307,24 @@ h1 {
   color: #121212
 }
 .contacts__title::before {
-  content: '';
+  content: ' ';
   display: block;
-  position: absolute; 
-  bottom: 35px; 
   width: 24px;
-  height: 24px;
+  height: 22px;
+  position: absolute;
+  bottom: 37px;
+  left: -5px;
   background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
+  background-position: 50%;
 }
 .contacts__number {
   margin-bottom: 30px;
 }
 .contacts__number a {
   font-weight: 400;
-  font-size: 60px;
+  font-size: 59px;
+  line-height: 60px;
   text-decoration: none;
   line-height: 60px;
   letter-spacing: -0.02em;
@@ -358,33 +368,40 @@ h1 {
   color: #FFFFFF;
   background: #121212;
 }
-.footer__lists-menu {
-  margin-bottom: 87px;
-  padding-top: 60px;
-  gap: 20px 60px;
-  letter-spacing: -0.03em;
-  display: flex;
-  justify-content: center;
+.footer__lists {
+  margin-right: 11px;
+  padding-top: 58px;
+  padding-bottom: 87px;
 }
-.footer__lists-menu a {
+.footer__link {
+  margin-right: 51px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
 }
-.footer__lists-menu a:hover {
+.footer__link:nth-last-child(3) {
+  margin-right: 53px;
+}
+.footer__link:nth-last-child(2) {
+  margin-right: 52px;
+}
+.footer__link:nth-last-child(1) {
+  margin-right: 0px;
+}
+.footer__link:hover {
   opacity: 0.5;
 }
 .footer__text {
-  margin-left: 5px;
-  margin-bottom: 30px;
+  margin-left: 6px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
+  color: #FFFFFF;
   opacity: 0.5;
 }
 /*footer finish*/
