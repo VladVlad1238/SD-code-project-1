@@ -266,6 +266,7 @@ h1 {
   background-position: 50%;
 }
 .project__flat-text h3 {
+  margin: 0 auto;
   position: absolute;
   width: 443px;
   height: 83px;
