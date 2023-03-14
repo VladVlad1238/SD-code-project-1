@@ -9,9 +9,16 @@ body {
   background: #ffffff;
   font-style: normal;
   font-weight: 400;
+}
+h1,
+h2,
+h3,
+p,
+a,
+.nav__link,
+button {
   letter-spacing: -0.03em;
 }
-
 /*navbar__start*/
 .nav__section {
   margin: 0 auto;
@@ -40,10 +47,9 @@ body {
   display: inline-block;
   margin-top: 33px;
   margin-left: 58px;
-  font-weight: 400;
+
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-align: right;
   text-transform: uppercase;
   text-decoration: none;
@@ -72,7 +78,6 @@ h1 {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 .main__content{
@@ -93,7 +98,6 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
 }
 /*main__section finish*/
@@ -112,7 +116,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #121212;
 }
@@ -123,7 +126,6 @@ h1 {
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 .services__button-btn {
@@ -134,11 +136,11 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 21px;
-  letter-spacing: -0.03em;
   background-color:#AD1818;
   color: #FFFFFF;
+  font-family: 'Manrope', courier, monospace;
 }
 /*about__us-section finish*/
 
@@ -159,7 +161,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #121212;
 }
@@ -171,14 +172,12 @@ h1 {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 .project__link {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #AD1818;
   text-decoration: none;
 }
@@ -194,19 +193,16 @@ h1 {
   margin-bottom: 150px;
   width: 100%;
   height: 150px;
-
   border: 1px solid #AD1818;
   border-radius: 5px;
   cursor: pointer;
-
-  font-size: 31px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
-  line-height: 150px;
-  letter-spacing: -0.03em;
-
+  line-height: 147px;
   color: #AD1818;
   background-color: transparent;
+  font-family: 'Manrope', courier, monospace;
 }
 .projects__button a {
   text-decoration: none;
@@ -234,7 +230,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -246,7 +241,6 @@ h1 {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: white;
 }
 .service__item {
@@ -281,7 +275,6 @@ h1 {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
 }
 
@@ -302,7 +295,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #121212
 }
@@ -337,7 +329,6 @@ h1 {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   color: #121212;
   text-decoration: none;
   opacity: 0.5;
@@ -378,7 +369,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
@@ -400,7 +390,6 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
   opacity: 0.5;
 }
