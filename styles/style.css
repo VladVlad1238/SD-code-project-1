@@ -18,7 +18,7 @@ a,
 button {
   letter-spacing: -0.03em;
 }
-/*navbar__start*/
+/*
 .nav__section {
   margin: 0 auto;
   width: 1150px;
@@ -59,7 +59,7 @@ button {
   border-bottom: 1px solid;
   opacity: 0.5;
 }
-/*navbar__finish*/
+
 
 /*main__section start*/
 .intro__container {
@@ -69,47 +69,50 @@ button {
 }
 .intro__title {
   margin-bottom: 30px;
-  width: 956px;
+  max-width: 956px;
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
 }
-.intro__description{
-  display: flex;
-  flex-direction: column-reverse;
-  height: 500px;
-  background-image: url(../img/Rectangle\ 1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
+.intro__pictures {
+    margin: 30px auto 0 auto;
+    max-width: 1150px;
+    position: relative;
 }
-.intro__text {
-  max-width: 503px;
-  padding: 40px;
+.intro__pictures picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.intro__pictures picture img {
+  width: 100%;
+  height: 100%;
+}
+.intro__description {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  max-width: 430px;
   font-size: 20px;
   line-height: 27px;
-  color: white;
+  color: #FFFFFF;
 }
 @media (max-width: 1199px) {
   .intro__container {
     width: 100%;
-    padding-left: 17px;
-    padding-right: 15px;
+    padding: 0 17px;
   }
   .intro__title {
-    width: 802px;
     font-size: 50px;
     line-height: 60px;
   }
-  .intro__description {
-    margin: 30px 0 120px 0;
-    height: 400px;
+  picture {
+    width: 100%;
   }
-  .intro__text {
-    width: 510px;
-    padding-left: 40px;
-    font-size: 20px;
+  .intro__description {
+    position: absolute;
+    bottom: 30px;
   }
 }
 @media (max-width: 767px) {
@@ -123,14 +126,9 @@ button {
     line-height: 32px;
   }
   .intro__description {
-    margin: 25px 0 80px 0;
-    height: 304px;
-  }
-  .intro__text {
     width: 312px;
-    padding-left: 15px;
-    font-size: 16px;
-    line-height: 22px;
+    bottom: 15px;
+    left: 15px;
   }
 }
 /*main__section finish*/
@@ -175,6 +173,7 @@ button {
   .about__us-container {
     width: 100%;
     padding-left: 17px;
+    padding-right: 250px;
   }
   .about__us-text {
     width: 690px;
@@ -244,6 +243,7 @@ button {
   text-decoration: none;
 }
 .projects__button {
+  margin-bottom: 150px;
   width: 1150px;
   height: 153px;
 }
@@ -279,7 +279,6 @@ button {
   }
   .project__img {
     width: 100%;
-    height: 450px;
   }
   .project__title {
     margin-bottom: 10px;
@@ -288,6 +287,7 @@ button {
     line-height: 34px;
   }
   .projects__button {
+    margin-bottom: 103px;
     width: 100%;
     height: 153px;
   }
@@ -308,7 +308,6 @@ button {
   }
   .project__img {
     margin-bottom: 20px;
-    height: 250px;
   }
   .project__title {
     margin-bottom: 11px;
@@ -322,14 +321,18 @@ button {
     font-size: 16px;
     line-height: 22px;
   }
+  .projects__button {
+    margin-bottom: 144px;
+  }
   .projects__button-btn {
     height: 100px;
     font-size: 22px;
     line-height: 30px;
   }
 }
+/*projects-item finish*/
 
-/*section services start*/
+/*section services start
 .services__section {
   margin: 0 auto;
   padding-top: 151px;
@@ -367,7 +370,7 @@ button {
 }
 /*section services finish*/
 
-/*project__flat start*/
+/*project__flat start
 .project__flat-section {
   margin: 0 auto;
   width: 100%;
@@ -387,8 +390,8 @@ button {
   width: 443px;
   height: 83px;
   right: 810px;
-  bottom: 59px;
-  left: 105px;
+  bottom: 60px;
+  left: 185px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
@@ -397,7 +400,7 @@ button {
 
 /*project__flat finish*/
 
-/*contacts__container start*/
+/*contacts__container start*
 .contacts__section {
   margin: 0 auto;
 }
@@ -463,7 +466,7 @@ button {
 
 /*styles for index.html finish*/
 
-/*footer start*/
+/*footer start*
 .footer__section {
   margin: 0 auto;
   width: 100%;
@@ -512,7 +515,7 @@ button {
 }
 /*footer finish*/
 
-/*styles for maintenance.html start*/
+/*styles for maintenance.html start*
 .maintenance__header h1 {
   margin: 0 auto;
   margin-bottom: 60px;
