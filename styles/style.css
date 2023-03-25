@@ -62,6 +62,9 @@ button {
 
 
 /*main__section start*/
+.main {
+  margin: 0 auto;
+}
 .intro__container {
   margin: 0 auto;
   width: 1150px;
@@ -76,9 +79,9 @@ button {
   color: #121212;
 }
 .intro__pictures {
-    margin: 30px auto 0 auto;
-    max-width: 1150px;
-    position: relative;
+  margin: 30px auto 190px auto;
+  max-width: 1150px;
+  position: relative;
 }
 .intro__pictures picture {
   display: block;
@@ -100,15 +103,15 @@ button {
 }
 @media (max-width: 1199px) {
   .intro__container {
+    margin: 0 auto;
     width: 100%;
     padding: 0 17px;
   }
   .intro__title {
     font-size: 50px;
-    line-height: 60px;
   }
-  picture {
-    width: 100%;
+  .intro__pictures {
+    margin-bottom: 120px;
   }
   .intro__description {
     position: absolute;
@@ -117,20 +120,28 @@ button {
 }
 @media (max-width: 767px) {
   .intro__container {
-   padding: 0 13px;
+    margin: 0 auto;
+    padding: 0 13px;
   }
   .intro__title {
+    margin-bottom: 25px;
     width: 348px;
-    padding-right: 14px;
     font-size: 30px;
     line-height: 32px;
   }
+  .intro__pictures {
+    margin-bottom: 80px;
+  }
   .intro__description {
-    width: 312px;
+    position: absolute;
     bottom: 15px;
     left: 15px;
+    width: 312px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
+
 /*main__section finish*/
 
 /*about__us-section start*/
@@ -149,7 +160,7 @@ button {
 .about__us-text {
   margin-left: 3px;
   margin-bottom: 31px;
-  width: 1048px;
+  max-width: 1048px;
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
@@ -170,24 +181,21 @@ button {
   font-family: 'Manrope', courier, monospace;
 }
 @media (max-width: 1199px) {
-  .about__us-container {
+  .about__us-container { 
+    margin: 0 auto;
     width: 100%;
-    padding-left: 17px;
-    padding-right: 250px;
+    padding: 0 17px;
   }
   .about__us-text {
-    width: 690px;
+    max-width: 690px;
     font-size: 35px;
     line-height: 48px;
-  }
-  .services__button-btn {
-    margin-bottom: 120px;
   }
 }
 @media (max-width: 767px) {
   .about__us-container {
-    width: 100%;
-    padding: 0 13px ;
+    margin: 0 auto;
+    padding: 0 13px;
   }
   .about__us-title {
     margin-bottom: 20px;
@@ -199,7 +207,7 @@ button {
     font-size: 22px;
     line-height: 30px;
   }
-  .services__button-btn {
+   .services__button-btn {
     margin: 0 auto;
     margin-bottom: 80px;
     width: 100%;
