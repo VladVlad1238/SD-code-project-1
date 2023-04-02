@@ -236,7 +236,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
   width: 100%;
   height: 153px;
   border: 1px solid #AD1818;
@@ -293,6 +292,7 @@ button {
   }
   .projects__button {
     margin-bottom: 144px;
+    height: 100px;
   }
   .projects__button-btn {
     height: 100px;
