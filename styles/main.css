@@ -1,0 +1,65 @@
+/*styles for index.html start*/
+@import "/styles/nav.css";
+@import "/styles/intor.css";
+@import "/styles/about-us.css";
+@import "/styles/projects.css";
+@import "/styles/services.css";
+@import "/styles/reviews.css";
+@import "/styles/gallery.css";
+@import "/styles/contacts.css";
+@import "/styles/footer.css";
+@import "/styles/maintenance.css";
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: 'Manrope', courier, monospace;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+p,
+a,
+.nav__link,
+button {
+  letter-spacing: -0.03em;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+.title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
+}
+@media (max-width: 767px) {
+  .title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px
+  }
+}
+.whitespace__section {
+  margin: 0 auto;
+  max-width: 1150px;
+  padding: 0 15px;
+}
+.service__list-title {
+  color: #FFFFFF;
+}

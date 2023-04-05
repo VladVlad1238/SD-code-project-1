@@ -1,0 +1,158 @@
+.gallery__section {
+  margin-bottom: 150px;
+}
+.gallery__inner {
+  position: relative;
+}
+.gallery__container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.gallery__title-wrapper {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+}
+.gallery__title {
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.gallery__image {
+  position: relative;
+  width: 100%;
+  height: 717px;
+}
+.gallery__slides {
+  position: relative;
+  height: 717px;
+}
+.gallery__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.gallery__slide_active {
+  opacity: 1;
+}
+.gallery__description-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+}
+.gallery__description {
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+.gallery__controller-wrapper {
+  position: absolute;
+  bottom: 162px;
+  width: 100%;
+  z-index: 1;
+}
+.gallery__control-prev {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.gallery__control-prev:hover {
+  opacity: 1;
+}
+.gallery__control-next {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.gallery__control-next:hover {
+  opacity: 1;
+}
+@media (max-width: 1199px) {
+  .gallery__section {
+    margin-bottom: 120px;
+  }
+  .gallery__container {
+    width: 100%;
+  }
+  .gallery__image {
+    height: 536px;
+  }
+  .gallery__title-wrapper {
+    top: 80px;
+    left: 50px;
+  }
+  .gallery__title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .gallery__slides {
+    height: 536px;
+  }
+  .gallery__controller-wrapper {
+    left: 41px;
+    top: 344px;
+  }
+  .gallery__description-wrapper {
+    top: 388px;
+    left: 50px;
+  }
+  .gallery__description {
+    width: 377px;
+    height: 68px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+@media (max-width: 767px) {
+  .gallery__section {
+    margin-bottom: 80px;
+  }
+  .gallery__image {
+    height: 408px;
+  }
+  .gallery__title-wrapper {
+    top: 61px;
+    left: 12px;
+  }
+  .gallery__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .gallery__slides {
+    height: 408px;
+  }
+  .gallery__controller-wrapper {
+    top: 189px;
+    left: 7px;
+  }
+  .gallery__controller {
+    display: flex;
+    justify-content: space-between;
+  }
+  .gallery__control-next {
+    position: absolute;
+    right: 25px;
+  }
+  .gallery__description-wrapper {
+    top: 296px;
+    left: 12px;
+  }
+  .gallery__description {
+    width: 287px;
+    height: 52px;
+    font-size: 19.0086px;
+    line-height: 26px;
+  }
+}

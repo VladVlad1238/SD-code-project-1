@@ -1,0 +1,41 @@
+/*
+.nav__section {
+  margin: 0 auto;
+  width: 1150px;
+}
+.nav__container{
+  margin: 0 auto;
+  width: 1150px;
+}
+.navbar__img-link {
+  display: inline-block;
+}
+.navbar__img {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 72px;
+  width: 127px;
+  height: 22px;
+}
+.nav {
+  display: inline;
+  vertical-align: top;
+  float: right;
+}
+.nav__link {
+  display: inline-block;
+  margin-top: 33px;
+  margin-left: 58px;
+
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+}
+.nav a:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+  opacity: 0.5;
+}

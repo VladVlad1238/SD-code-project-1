@@ -1,0 +1,49 @@
+
+/*styles for maintenance.html start*
+.maintenance__header h1 {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+}
+.maintenance__text {
+  margin-bottom: 60px;
+  font-size: 25px;
+  text-align: center;
+}
+.maintenance__img {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.maintenance__button a {
+  text-decoration: none;
+}
+.maintenance__button-btn {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: block;
+  width: 1150px;
+  height: 153px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: black;
+  background-color: transparent;
+}
+.maintenance__button-btn:hover {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+.maintenance__footer {
+  margin-bottom: 80px;
+  font-size: 20px;
+  text-align: center;
+}
+/*styles for maintenance.html finish*/
