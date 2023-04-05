@@ -2,7 +2,7 @@
   margin-bottom: 150px;
   background: #121212;
 }
-.services__container {
+.service__inner {
   padding-top: 151px;
 }
 .service__list {
@@ -71,7 +71,7 @@
   .services__section {
     margin-bottom: 80px;
   }
-  .services__container {
+  .service__inner {
     padding-top: 80px;
   }
   .service__list {
