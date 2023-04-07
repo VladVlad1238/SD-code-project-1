@@ -67,11 +67,11 @@
   height: 40px;
 }
 .gallery__control-prev {
-  background-image: url(./img/button-prev.png);
+  background-image: url(/img/button-prev.png);
   background-size: contain;
 }
 .gallery__control-next {
-  background-image: url(./img/button-prev.png);
+  background-image: url(/img/button-prev.png);
   transform: rotate(180deg);
   background-size: contain;
 }
