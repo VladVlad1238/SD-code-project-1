@@ -145,7 +145,7 @@
   }
   .gallery__controller {
     justify-content: space-between;
-    width: inherit;
+    width: 100%;
   }
   .gallery__control-prev,
   .gallery__control-next {
