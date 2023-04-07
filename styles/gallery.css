@@ -1,11 +1,11 @@
-.gallery__section {
+ .gallery__section {
   margin-bottom: 150px;
 }
 .gallery__inner {
   position: relative;
 }
 .gallery__container {
-  max-width: 1150px;
+  width: 1150px;
   margin: 0 auto;
 }
 .gallery__title-wrapper {
@@ -51,33 +51,29 @@
   line-height: 41px;
   color: #FFFFFF;
 }
-.gallery__controller-wrapper {
+.gallery__controller {
   position: absolute;
+  left: auto;
+  display: flex;
+  gap: 14px;
   bottom: 162px;
-  width: 100%;
-  z-index: 1;
+  z-index: 1; 
+}
+.gallery__control-prev,
+.gallery__control-next {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
 }
 .gallery__control-prev {
-  width: 40px;
-  height: 40px;
-  opacity: 0.5;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
-.gallery__control-prev:hover {
-  opacity: 1;
+  background-image: url(/img/button-prev.png);
+  background-size: contain;
 }
 .gallery__control-next {
-  width: 40px;
-  height: 40px;
-  opacity: 0.5;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
-.gallery__control-next:hover {
-  opacity: 1;
+  background-image: url(/img/button-prev.png);
+  transform: rotate(180deg);
+  background-size: contain;
 }
 @media (max-width: 1199px) {
   .gallery__section {
@@ -92,6 +88,7 @@
   .gallery__title-wrapper {
     top: 80px;
     left: 50px;
+    max-width: 183px;
   }
   .gallery__title {
     font-size: 20px;
@@ -101,12 +98,13 @@
     height: 536px;
   }
   .gallery__controller-wrapper {
+    position: absolute;
     left: 41px;
-    top: 344px;
   }
   .gallery__description-wrapper {
     top: 388px;
     left: 50px;
+    max-width: 377px;
   }
   .gallery__description {
     width: 377px;
@@ -118,6 +116,9 @@
 @media (max-width: 767px) {
   .gallery__section {
     margin-bottom: 80px;
+  }
+  .gallery__container {
+    min-width: 100%;
   }
   .gallery__image {
     height: 408px;
@@ -134,16 +135,18 @@
     height: 408px;
   }
   .gallery__controller-wrapper {
-    top: 189px;
-    left: 7px;
+    position: initial;
   }
   .gallery__controller {
-    display: flex;
     justify-content: space-between;
+    width: inherit;
   }
+  .gallery__control-prev,
   .gallery__control-next {
-    position: absolute;
-    right: 25px;
+    width: 30px;
+    height: 30px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
   }
   .gallery__description-wrapper {
     top: 296px;
