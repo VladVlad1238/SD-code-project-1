@@ -75,6 +75,12 @@
   transform: rotate(180deg);
   background-size: contain;
 }
+.gallery__controller .gallery__control-prev:hover {
+  opacity: 0.5;
+}
+.gallery__controller .gallery__control-next:hover {
+  opacity: 0.5;
+}
 @media (max-width: 1199px) {
   .gallery__section {
     margin-bottom: 120px;
