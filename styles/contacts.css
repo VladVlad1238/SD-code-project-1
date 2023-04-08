@@ -25,8 +25,8 @@
   top: 0;
   width: 24px;
   height: 22px;
-  left: -5px;
   background-image: url(../img/phone.svg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -63,7 +63,7 @@
   content: "";
   display: block;
   margin-top: 10px;
-  width: 408px;
+  width: 280px;
   height: 1.5px;
   background-color: black;
   opacity: 0.5;
@@ -83,7 +83,7 @@
   }
   .contacts__email:after {
     margin-top: 0;
-    width: 309px;
+    width: 210px;
   }
 }
 @media (max-width: 862px) {
