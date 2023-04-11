@@ -18,7 +18,6 @@
     
     <!--nav start
     <div class="nav__section">
-      <nav>fhdjgfj</nav>
       <div class="nav__container">
         <a href="#" class="navbar__img-link">
           <img class="navbar__img" src="img/Метрика .png" alt="Метрика">
@@ -145,9 +144,24 @@
               </div>
             </div>
           </div>
-            <div class="service__button">
-              <button class="service__button-btn">Заказать услугу</button>
+          <div class="js-btn service__button">
+            <button class="service__button-btn">Заказать услугу</button>
+          </div>
+          <div class="js-popup popup">
+            <div class="js-popup__content popup__content">
+              <div class="popup__title">Заказать услугу</div>
+              <div class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</div>
+              <div class="popup__input">
+                <input class="input" type="text" placeholder="Имя">
+                <input class="input" type="text" placeholder="Электронная почта">
+                <input class="input" type="text" placeholder="Номер телефона">
+              </div>
+              <div class="js-popup__close-btn popup__close-btn"></div>
+              <div class="popup__send">
+                <button class="popup__send-btn">Отправить</button>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -299,6 +313,7 @@
     </footer>
   
     <!--footer finish-->
-    <script src="gallery.js"></script>
+    <script src="scripts/gallery.js"></script>
+    <script src="scripts/popup.js"></script>
   </body>
 </html>
