@@ -47,7 +47,7 @@
 @media (max-width: 767px) {
   .intro__title {
     margin-bottom: 25px;
-    width: 348px;
+    width: 100%;
     font-size: 30px;
     line-height: 32px;
   }

@@ -91,7 +91,6 @@
   border-bottom: 1px solid black;
   color: #000000;
 }
-
 .input:focus {
   outline: none;
 }
