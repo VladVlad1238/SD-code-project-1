@@ -158,6 +158,7 @@
   .gallery__description-wrapper {
     top: 296px;
     left: 12px;
+    width: auto;
   }
   .gallery__description {
     width: 287px;

@@ -96,6 +96,7 @@
     flex-direction: column;
   }
   .contacts__col {
+    width: 100%;
     padding-top: 38px;
   }
   .contacts__title {
@@ -105,7 +106,6 @@
   }
   .contacts__number {
     margin-bottom: 20px;
-    width: 375px;
   }
   .contacts__number:before {
     width: 18px;
