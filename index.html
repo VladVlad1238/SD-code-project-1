@@ -32,10 +32,36 @@
             <a class="nav__link" href="#services__section">УСЛУГИ</a>
             <a class="nav__link" href="#contacts__section">КОНТАКТЫ</a>
           </nav>
+          <button class="js-burger-btn burger-btn_open"></button>
         </div>
       </div>
     </header>
-    <!--nav finish-->
+
+    <div class="js-burger burger">
+      <div class="burger__content">
+        <div class="header__logo-burger">
+          <img 
+          class="header__img" 
+          src="img/Метрика .png" 
+          alt="Иконка бренда метрика состоящая из слова Метрика">
+        </div>
+        <button class="burger-btn_close">
+          <img  class="burger-btn_close-img" src="/img/burger-cross-close.png" alt="">
+        </button> 
+        <nav class="header__nav-burger">
+          <a class="nav__link-burger" href="#about__us-section">О НАС</a>
+          <a class="nav__link-burger" href="#projects__section">ПРОЕКТЫ</a>
+          <a class="nav__link-burger" href="#services__section">УСЛУГИ</a>
+          <a class="nav__link-burger" href="#contacts__section">КОНТАКТЫ</a>
+        </nav>
+        <div class="js-burger__content header-burger__contacts">
+          <p class="burger__contacts-text">для связи:</p>
+          <div class="burger__contacts-phone"><a href="tel:+79358954535">+7 935&nbsp; 895-45-35</a></div>
+          <div class="burger__contacts-email"><a href="https://t.me/Vlad1996S" target="_blank">Vlad1996S</a></div>
+        </div>
+      </div>
+    </div>
+    <!--nav finish--> 
 
   <main class="main">
     <div class="whitespace__section">
@@ -318,7 +344,9 @@
     </footer>
   
     <!--footer finish-->
-    <script src="scripts/gallery.js"></script>
+    <script src="scripts/burger.js"></script>
     <script src="scripts/popup.js"></script>
+    <script src="scripts/gallery.js"></script>
+    
   </body>
 </html>
