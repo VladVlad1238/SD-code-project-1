@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metrika</title>
 
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="styles/reset.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,10 +28,20 @@
             alt="Иконка бренда метрика состоящая из слова Метрика">
           </div>          
           <nav class="header__nav">
-            <a class="nav__link" href="#about__us-section">О НАС</a>
-            <a class="nav__link" href="#projects__section">ПРОЕКТЫ</a>
-            <a class="nav__link" href="#services__section">УСЛУГИ</a>
-            <a class="nav__link" href="#contacts__section">КОНТАКТЫ</a>
+            <ul class="header__nav-lists">
+              <li class="header__nav-list">
+                <a class="nav__link" href="#about__us-container">О НАС</a>
+              </li>
+              <li class="header__nav-list">
+                <a class="nav__link" href="#projects__section">ПРОЕКТЫ</a>
+              </li>
+              <li class="header__nav-list">
+                <a class="nav__link" href="#services__section">УСЛУГИ</a>
+              </li>
+              <li class="header__nav-list">
+                <a class="nav__link" href="#contacts__section">КОНТАКТЫ</a>
+              </li>
+            </ul>            
           </nav>
           <button class="js-burger-btn burger-btn_open"></button>
         </div>
@@ -49,10 +60,20 @@
           <img  class="burger-btn_close-img" src="/img/burger-cross-close.png" alt="">
         </button> 
         <nav class="header__nav-burger">
-          <a class="nav__link-burger" href="#about__us-section">О НАС</a>
-          <a class="nav__link-burger" href="#projects__section">ПРОЕКТЫ</a>
-          <a class="nav__link-burger" href="#services__section">УСЛУГИ</a>
-          <a class="nav__link-burger" href="#contacts__section">КОНТАКТЫ</a>
+          <ul class="header__nav-burger-lists">
+            <li class="header__nav-burger-list">
+              <a class="nav__burger-link" href="#about__us-container">О НАС</a>
+            </li>
+            <li class="header__nav-list">
+              <a class="nav__burger-link" href="#projects__section">ПРОЕКТЫ</a>
+            </li>
+            <li class="header__nav-list">
+              <a class="nav__burger-link" href="#services__section">УСЛУГИ</a>
+            </li>
+            <li class="header__nav-list">
+              <a class="nav__burger-link" href="#contacts__section">КОНТАКТЫ</a>
+            </li>
+          </ul> 
         </nav>
         <div class="js-burger__content header-burger__contacts">
           <p class="burger__contacts-text">для связи:</p>
@@ -331,15 +352,23 @@
     <!--container__footer start-->
     <footer class="footer__section" id="footer__section">
       <div class="footer__container container">
-        <div class="footer__inner">
-          <nav class="footer__lists">
-            <a class="footer__link" href="#about__us-section">о нас</a>
-            <a class="footer__link" href="#projects__section">проекты</a>
-            <a class="footer__link" href="#services__section">услуги</a>
-            <a class="footer__link" href="#contacts__section">контакты</a>
-          </nav>
-          <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
-        </div>
+        <nav class="footer__nav">
+          <ul class="footer__lists">
+            <li class="footer__list">
+              <a class="footer__link" href="#about__us-container">о нас</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#projects__section">проекты</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#services__section">услуги</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#contacts__section">контакты</a>
+            </li>
+          </ul>          
+        </nav>
+        <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
       </div>
     </footer>
   
