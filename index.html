@@ -203,11 +203,11 @@
             <div class="js-popup__content popup__content">
               <div class="popup__title">Заказать услугу</div>
               <div class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</div>
-              <div class="popup__input">
-                <input class="input" type="text" placeholder="Имя">
-                <input class="input" type="text" placeholder="Электронная почта">
-                <input class="input" type="text" placeholder="Номер телефона">
-              </div>
+              <form class="popup__input" autocomplete="on">
+                <input class="input" type="text" name="name" placeholder="Имя">
+                <input class="input" type="email" name="email" placeholder="Электронная почта">
+                <input class="input" type="tel" name="tel" placeholder="Номер телефона">
+              </form>
               <div class="js-popup__close-btn popup__close-btn"></div>
               <div class="popup__send">
                 <button class="popup__send-btn">Отправить</button>
