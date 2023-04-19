@@ -68,11 +68,13 @@
   height: 40px;
 }
 .gallery__control-prev {
-  background-image: url(../img/button-prev.png);
+  background-image: url(../img/slider-gallery-img.png);
+  background-repeat: no-repeat;
   background-size: contain;
 }
 .gallery__control-next {
-  background-image: url(../img/button-prev.png);
+  background-image: url(../img/slider-gallery-img.png);
+  background-repeat: no-repeat;
   transform: rotate(180deg);
   background-size: contain;
 }
@@ -158,8 +160,8 @@
   .gallery__control-next {
     width: 30px;
     height: 30px;
-    margin-left: 5.5px;
-    margin-right: 5.5px;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
   }
   .gallery__description-wrapper {
     width: auto;

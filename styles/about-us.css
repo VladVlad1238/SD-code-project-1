@@ -6,20 +6,6 @@
   line-height: 61px;
   color: #121212;
 }
-.services__button-btn {
-  margin-bottom: 149px;
-  width: 255px;
-  height: 67px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 21px;
-  background-color:#AD1818;
-  color: #FFFFFF;
-  font-family: 'Manrope', courier, monospace;
-}
 @media (max-width: 1199px) {
   .about__us-text {
     max-width: 690px;
@@ -35,11 +21,5 @@
     width: 100%;
     font-size: 22px;
     line-height: 30px;
-  }
-   .services__button-btn {
-    margin-bottom: 80px;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
   }
 }

@@ -1,0 +1,33 @@
+.popup__title {
+  padding-top: 94px;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.popup__text {
+  padding-top: 4px;
+  padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .popup__title {
+    margin-bottom: 11px;
+    padding-top: 80px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .popup__text {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 19px;
+    width: 209px;
+  }
+}

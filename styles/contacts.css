@@ -52,9 +52,9 @@
   position: absolute;
   display: block;
   top: 0;
-  width: 24px;
-  height: 22px;
-  background-image: url(../img/email.svg);
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/telegram-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;

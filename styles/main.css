@@ -1,15 +1,18 @@
 /*styles for index.html start*/
 @import "../styles/header.css";
-@import "../styles/intor.css";
+@import "../styles/intro.css";
 @import "../styles/about-us.css";
 @import "../styles/projects.css";
 @import "../styles/services.css";
 @import "../styles/popup.css";
+@import "../styles/input.css";
+@import "../styles/order.css";
 @import "../styles/reviews.css";
 @import "../styles/gallery.css";
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
 @import "../styles/maintenance.css";
+@import "../styles/buttons.css";
 
 
 html {
@@ -31,20 +34,33 @@ a,
 .nav__link,
 button {
   letter-spacing: -0.03em;
+  font-family: inherit;
+  cursor: pointer;
   padding: 0;
 }
 .container {
   margin: 0 auto;
   max-width: 1150px;
 }
+.button__margin {
+  margin-bottom: 150px;
+}
 @media (max-width: 1199px) {
   .container {
+    margin-bottom: 120px;
     padding: 0 15px;
+  }
+  .button__margin {
+    margin-bottom: 120px;
   }
 }
 @media (max-width: 767px) {
   .container {
+    margin-bottom: 80px;
     padding: 0 13px;
+  }
+  .button__margin {
+    margin-bottom: 80px;
   }
 }
 .title {
@@ -75,3 +91,4 @@ button {
 .service__list-title {
   color: #FFFFFF;
 }
+
